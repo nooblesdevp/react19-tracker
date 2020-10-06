@@ -11,6 +11,7 @@ import Table from './Components/Table/Table'
 import LineGraph from './Components/LineGraph/LineGraph'
 import {sortData, prettyPrintStat } from './util'
 
+import SocialLink from './Components/Social/SocialLink'
 
 function App() {
   const [ countries, setCountries ] = useState ([])
@@ -132,6 +133,7 @@ function App() {
         center={mapCenter}
         zoom={mapZoom}
       />
+        <SocialLink/>
         </div>
       <Card className="app__right">
         <CardContent>
@@ -140,8 +142,7 @@ function App() {
             <h3 className="app__graphTitle" >Worldwide New {casesType}</h3>
           <LineGraph className="app__graph" casesType={casesType}/>
         </CardContent>
-      </Card>
-      
+      </Card> 
     </div>
   );
 }

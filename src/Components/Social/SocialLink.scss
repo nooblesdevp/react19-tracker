@@ -1,0 +1,17 @@
+.socialLink {
+   margin-top: 28px;
+
+    a {
+      color: rgb(6, 82, 82)(116, 1, 1) ;
+      margin-right: 16px;
+      
+      .socialLink__icon{
+        font-size: 3rem ;
+        transition: .4s all;
+        &:hover {
+          color:rgb(6, 123, 219) ;
+        }
+
+      }
+    }
+}

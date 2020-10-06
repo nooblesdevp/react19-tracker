@@ -7,9 +7,11 @@ body {
 }
 
 .app {
-  display: flex;
-  justify-content: space-evenly;
-  padding: 20px;
+   position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+
   .app__left {
     flex: 0.7;
   }

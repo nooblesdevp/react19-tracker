@@ -1,6 +1,7 @@
 .infoBox {
     flex: 1;
     cursor: pointer;
+    box-sizing: border-box;
     &:not(:last-child) {
         margin-right: 10px;
     }

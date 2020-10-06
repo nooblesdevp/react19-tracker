@@ -9,13 +9,32 @@
 }
 
 @media (max-width: 425px) {
-  .app__header h1 {
-    font-size: 1.5rem;
+  .app__header {
+    flex-direction: column;
+    
+    h1 {
+      margin-bottom: 20px;
+     
+    }
   }
+
   .app__stats {
     flex-direction: column;
     .infoBox {
       margin: 10px 0 !important;
     }
+  }
+  .app__dropdown {
+    width: 100%;
+    
+  }
+  .socialLink{
+    display: flex;
+    justify-content: space-evenly;
+    a:last-child{
+      margin-right: 0;
+    }
+    
+    
   }
 }
