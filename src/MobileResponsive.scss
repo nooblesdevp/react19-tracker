@@ -1,0 +1,21 @@
+@media (max-width: 990px) {
+  .app {
+    flex-direction: column;
+  }
+  .app__right{
+    margin-top: 20px;
+    max-width: 100% !important
+  }
+}
+
+@media (max-width: 425px) {
+  .app__header h1 {
+    font-size: 1.5rem;
+  }
+  .app__stats {
+    flex-direction: column;
+    .infoBox {
+      margin: 10px 0 !important;
+    }
+  }
+}
